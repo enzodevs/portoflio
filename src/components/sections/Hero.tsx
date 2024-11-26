@@ -17,7 +17,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-6xl font-bold mb-6"
           >
-            Olá, eu sou <span className="text-primary">Seu Nome</span>
+            Hi, I'm <span className="text-primary">Enzo Cambraia</span>
           </motion.h1>
           
           <motion.p 
@@ -26,7 +26,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8"
           >
-            Estudante de Engenharia da Computação apaixonado por desenvolvimento web e tecnologia
+            Computer Engineering student with a passion for web development and technology
           </motion.p>
 
           <motion.div 
@@ -37,11 +37,11 @@ export function Hero() {
           >
             <Button size="lg" asChild>
               <Link href="#projects">
-                Ver Projetos <ArrowRight className="ml-2 h-4 w-4" />
+              See Projects <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="#contact">Entre em Contato</Link>
+              <Link href="#contact">Get in Touch</Link>
             </Button>
           </motion.div>
 
@@ -51,12 +51,12 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex justify-center gap-4"
           >
-            <Link href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/enzodevs" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Github className="h-6 w-6" />
               </Button>
             </Link>
-            <Link href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/enzo-cambraia/" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Linkedin className="h-6 w-6" />
               </Button>

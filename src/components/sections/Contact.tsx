@@ -39,9 +39,9 @@ export function Contact() {
           className="max-w-4xl mx-auto"
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Contato</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact</h2>
             <p className="text-lg text-muted-foreground">
-              Interessado em trabalhar juntos? Entre em contato!
+            Interested in working together? Get in touch!
             </p>
           </motion.div>
 
@@ -54,7 +54,7 @@ export function Contact() {
                     <input
                       type="text"
                       className="w-full px-4 py-2 border rounded-md bg-background"
-                      placeholder="Seu nome"
+                      placeholder="Your name"
                     />
                   </div>
                   <div className="space-y-2">
@@ -62,27 +62,27 @@ export function Contact() {
                     <input
                       type="email"
                       className="w-full px-4 py-2 border rounded-md bg-background"
-                      placeholder="seu@email.com"
+                      placeholder="your@email.com"
                     />
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-medium">Assunto</label>
+                  <label className="text-sm font-medium">Subject</label>
                   <input
                     type="text"
                     className="w-full px-4 py-2 border rounded-md bg-background"
-                    placeholder="Assunto da mensagem"
+                    placeholder="Message subject"
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-medium">Mensagem</label>
+                  <label className="text-sm font-medium">Message</label>
                   <textarea
                     className="w-full px-4 py-2 border rounded-md bg-background min-h-[150px]"
-                    placeholder="Sua mensagem..."
+                    placeholder="Your message..."
                   />
                 </div>
                 <Button className="w-full" size="lg">
-                  Enviar Mensagem
+                Send Message
                   <Send className="ml-2 h-4 w-4" />
                 </Button>
               </form>
@@ -95,11 +95,11 @@ export function Contact() {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-muted-foreground">seu@email.com</p>
+                    <p className="text-sm text-muted-foreground">enzo.cambraia@gmail.com</p>
                   </div>
                 </a>
                 <a
-                  href="https://linkedin.com/in/seu-perfil"
+                  href="https://www.linkedin.com/in/enzo-cambraia/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-lg hover:bg-secondary transition-colors"
@@ -107,7 +107,7 @@ export function Contact() {
                   <MessageSquare className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">LinkedIn</p>
-                    <p className="text-sm text-muted-foreground">Vamos conectar!</p>
+                    <p className="text-sm text-muted-foreground">Let's link up!</p>
                   </div>
                 </a>
               </div>

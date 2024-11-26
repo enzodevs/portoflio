@@ -8,23 +8,23 @@ import { Code2, Laptop, Brain, Rocket } from 'lucide-react'
 const features = [
   {
     icon: Code2,
-    title: 'Desenvolvimento Web',
-    description: 'Experiência com tecnologias modernas como Next.js, React e TypeScript'
+    title: 'Web Development',
+    description: 'Experience with modern technologies such as Next.js, React and TypeScript'
   },
   {
     icon: Laptop,
-    title: 'Engenharia da Computação',
-    description: 'Estudante dedicado com foco em soluções inovadoras'
+    title: 'Computer Engineering',
+    description: 'Dedicated student with a focus on innovative solutions'
   },
   {
     icon: Brain,
     title: 'Problem Solving',
-    description: 'Apaixonado por resolver problemas complexos com soluções elegantes'
+    description: 'Passionate about solving complex problems with elegant solutions'
   },
   {
     icon: Rocket,
-    title: 'Inovação',
-    description: 'Sempre buscando aprender e aplicar novas tecnologias'
+    title: 'Innovation',
+    description: 'Always looking to learn and apply new technologies'
   }
 ]
 
@@ -61,10 +61,9 @@ export function About() {
           className="max-w-4xl mx-auto"
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Sobre Mim</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
             <p className="text-lg text-muted-foreground">
-              Estudante de Engenharia da Computação apaixonado por tecnologia e inovação.
-              Busco constantemente novos desafios e oportunidades para crescer profissionalmente.
+            I boost business with technological solutions.
             </p>
           </motion.div>
 
@@ -91,10 +90,9 @@ export function About() {
             className="mt-12 text-center"
           >
             <p className="text-lg text-muted-foreground">
-              Atualmente focado em desenvolvimento web full-stack, 
-              com especial interesse em criar experiências únicas e interativas.
-              Sempre em busca de aprender novas tecnologias e metodologias para 
-              desenvolver soluções inovadoras.
+            Currently focused on full-stack web development, with a
+            special interest in creating unique and interactive experiences.
+            Always looking to learn new technologies and methodologies to develop innovative solutions.
             </p>
           </motion.div>
         </motion.div>

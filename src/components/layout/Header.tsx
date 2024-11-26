@@ -25,22 +25,22 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
           <Link href="/" className="text-xl font-bold">
-            Seu Nome
+            Enzo Cambraia
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
             <Link href="/#about" className="hover:text-primary transition-colors">
-              Sobre
+              About
             </Link>
             <Link href="/#projects" className="hover:text-primary transition-colors">
-              Projetos
+              Projects
             </Link>
             <Link href="/#skills" className="hover:text-primary transition-colors">
               Skills
             </Link>
             <Link href="/#contact" className="hover:text-primary transition-colors">
-              Contato
+              Contact
             </Link>
           </div>
 

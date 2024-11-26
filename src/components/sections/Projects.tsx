@@ -20,21 +20,27 @@ interface Project {
 // Array de projetos
 const projects: Project[] = [
   {
-    title: "Projeto 1",
-    description: "Descrição do projeto 1. Uma breve explicação sobre o que foi desenvolvido e as principais tecnologias utilizadas.",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind"],
-    image: "/api/placeholder/600/400",
-    github: "https://github.com/seu-usuario/projeto1",
-    live: "https://projeto1.com"
+    title: "Indica Dashboard",
+    description: "An interactive dashboard for a personal app project called “Indica Bet”.",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind", "Shadcn/ui"],
+    image: "/project-images/indica-dashboard.svg",
+    github: "https://github.com/enzodevs/indica-dashboard.git",
+    live: "https://trustrade.online"
   },
   {
-    title: "Projeto 2",
-    description: "Descrição do projeto 2. Detalhes sobre a implementação e os desafios superados durante o desenvolvimento.",
-    tags: ["React", "Node.js", "MongoDB"],
-    image: "/api/placeholder/600/400",
-    github: "https://github.com/seu-usuario/projeto2",
+    title: "Agro App",
+    description: "A mobile app designed to connect small farmers, enabling them to trade products, share resources, and build a community network. ",
+    tags: ["React Native", "Expo", "Tailwind", "TypeScript", "PostgreSQL", "Django"],
+    image: "/project-images/agro-app.svg",
+    github: "https://github.com/enzodevs/agro-app",
   },
-  // Adicione mais projetos conforme necessário
+  {
+    title: "Echo Verse",
+    description: "Blog site inspired by the well-known Medium site.",
+    tags: ["Angular", "Node.js", "Express", "Bycript", "JWT", "MongoDB"],
+    image: "/project-images/echo-verse.svg",
+    github: "https://github.com/enzodevs/agro-app",
+  },
 ]
 
 export function Projects() {
@@ -69,10 +75,9 @@ export function Projects() {
         className="container mx-auto px-4"
       >
         <motion.div variants={itemVariants} className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Projetos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Uma seleção dos meus projetos mais recentes e relevantes, demonstrando minhas habilidades
-            e experiência em desenvolvimento.
+          A selection of my most recent and relevant projects.
           </p>
         </motion.div>
 

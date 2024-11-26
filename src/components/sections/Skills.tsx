@@ -72,9 +72,9 @@ export function Skills() {
           className="max-w-4xl mx-auto"
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Habilidades</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Skills</h2>
             <p className="text-lg text-muted-foreground">
-              Minhas competências técnicas e ferramentas que utilizo no desenvolvimento.
+            My technical skills and the tools I use in development.
             </p>
           </motion.div>
 
