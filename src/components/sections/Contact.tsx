@@ -143,7 +143,7 @@ export function Contact() {
 
       // Fechar notificação de sucesso após 5 segundos
       setTimeout(closeNotification, 5000)
-    } catch (error) {
+    } catch {
       setNotification({
         isOpen: true,
         status: 'error',
